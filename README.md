@@ -69,26 +69,26 @@ jupyter notebook
 
 ```
 chronotherapy-ai/
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ synthetic/          # Generated synthetic data
-â”‚   â””â”€â”€ README_DATA.md      # Data documentation
-â”œâ”€â”€ notebooks/
-â”‚   â”œâ”€â”€ 01_simulate_data.ipynb          # Data generation
-â”‚   â”œâ”€â”€ 02_feature_engineering.ipynb    # Feature extraction
-â”‚   â”œâ”€â”€ 03_supervised_baseline.ipynb    # Supervised models
-â”‚   â””â”€â”€ 04_bandit_simulation.ipynb      # Bandit simulation
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ data/
-â”‚   â”‚   â””â”€â”€ simulate_cohort.py          # Synthetic data generator
-â”‚   â”œâ”€â”€ models/
-â”‚   â”‚   â”œâ”€â”€ supervised.py               # XGBoost/LightGBM models
-â”‚   â”‚   â””â”€â”€ bandit.py                    # Contextual bandit algorithms
-â”‚   â”œâ”€â”€ train.py                         # Training script
-â”‚   â”œâ”€â”€ evaluate.py                      # Evaluation script
-â”‚   â””â”€â”€ utils.py                         # Utility functions
-â”œâ”€â”€ requirements.txt                     # Python dependencies
-â”œâ”€â”€ README.md                            # This file
-â””â”€â”€ ETHICS.md                            # Ethical guidelines
+|-- data/
+|   |-- synthetic/          # Generated synthetic data
+|   `-- README_DATA.md      # Data documentation
+|-- notebooks/
+|   |-- 01_simulate_data.ipynb          # Data generation
+|   |-- 02_feature_engineering.ipynb    # Feature extraction
+|   |-- 03_supervised_baseline.ipynb    # Supervised models
+|   `-- 04_bandit_simulation.ipynb      # Bandit simulation
+|-- src/
+|   |-- data/
+|   |   `-- simulate_cohort.py          # Synthetic data generator
+|   |-- models/
+|   |   |-- supervised.py               # XGBoost/LightGBM models
+|   |   `-- bandit.py                    # Contextual bandit algorithms
+|   |-- train.py                         # Training script
+|   |-- evaluate.py                      # Evaluation script
+|   `-- utils.py                         # Utility functions
+|-- requirements.txt                     # Python dependencies
+|-- README.md                            # This file
+`-- ETHICS.md                            # Ethical guidelines
 ```
 
 ## Usage
