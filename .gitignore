@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.class
@@ -43,7 +43,6 @@ data/synthetic/*.json
 !data/synthetic/.gitkeep
 
 # Models
-models/
 *.pkl
 *.joblib
 *.h5
