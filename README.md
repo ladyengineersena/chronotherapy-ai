@@ -2,7 +2,7 @@
 
 Personalized treatment timing optimizer for cancer therapy using circadian and clinical data.
 
-**Status:** Research prototype â€” Not for clinical use.
+**Status:** Research prototype - Not for clinical use.
 
 ## Overview
 
@@ -167,13 +167,13 @@ If using real patient data, you need:
 ## Evaluation Metrics
 
 - **Efficacy**: Probability of response, tumor shrinkage percentage
-- **Safety**: Probability of gradeâ‰¥3 toxicity, days with severe adverse events
-- **Composite Reward**: Weighted combination (efficacy âˆ’ Î» Ã— toxicity)
+- **Safety**: Probability of grade>=3 toxicity, days with severe adverse events
+- **Composite Reward**: Weighted combination (efficacy - lambda * toxicity)
 - **Bandit Metrics**: Cumulative regret, average reward over time
 
 ## Ethics & Legal
 
-âš ï¸ **IMPORTANT**: This is a research prototype. Model outputs are for research purposes only and should NOT be used to direct clinical care.
+**IMPORTANT**: This is a research prototype. Model outputs are for research purposes only and should NOT be used to direct clinical care.
 
 ### Key Requirements:
 
